@@ -21,27 +21,24 @@
     php artisan serve
 ```
 
-
-Parece que has subido un archivo relacionado con tu proyecto de Laravel. Si deseas implementar autenticación de usuarios en tu aplicación, puedo guiarte en cómo hacerlo utilizando Laravel Breeze o Laravel Jetstream, que son dos formas comunes para manejar la autenticación de manera rápida.
-
-Por ejemplo, si deseas utilizar Laravel Breeze, aquí están los pasos básicos:
+# Breeze
 
 1. **Instala Laravel Breeze**:
    Desde la terminal en el directorio raíz de tu proyecto, ejecuta:
-   ```bash
+```bash
    composer require laravel/breeze --dev
-   ```
+```
 
 2. **Genera la autenticación básica**:
    Luego, para instalar las vistas de autenticación básicas, ejecuta:
-   ```bash
+```bash
    php artisan breeze:install
-   ```
+```
 
 3. **Instala las dependencias de npm**:
-   ```bash
+```bash
    npm install && npm run dev
-   ```
+```
 
 4. **Migra la base de datos**:
    Asegúrate de que tu archivo `.env` esté configurado correctamente para la base de datos, y luego migra las tablas necesarias:
