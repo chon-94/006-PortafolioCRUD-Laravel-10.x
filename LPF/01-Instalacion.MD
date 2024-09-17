@@ -46,9 +46,7 @@
     php artisan migrate
 ```
 
-Esto te generará rutas y vistas para el registro, inicio de sesión y recuperación de contraseñas.
 
-Si prefieres usar Jetstream o necesitas ayuda con la estructura actual de tu proyecto, solo avísame y lo configuramos.
 
 # Tailwind
 
