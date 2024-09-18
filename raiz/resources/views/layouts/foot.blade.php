@@ -7,7 +7,7 @@
         
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src="/img/logo-0.png" class="h-8" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Femas</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LOGO</span>
             </a>
         
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
