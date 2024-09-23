@@ -70,69 +70,93 @@
 {{-- Carousel wrapper --}}
 
 
-    <!-- Cards -->
-    <div  id="card" class="grid-cols-1 sm:grid md:grid-cols-3 flex items-center justify-center h-screen">
-        <div
-          class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              class="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/044.webp"
-              alt="Skyscrapers" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight">Experiencia</h5>
-            <p class="mb-4 text-base">
-                01100101 01111000 01110000 01100101 01110010 01101001 01101101 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 00100000 01100100 01100101 00100000 01100101 01111000 01110000 01100101 01110010 01101001 01100101 01101110 01100011 01101001 01100001 01110011 
-            </p>
-          </div>
-          <div
-            class="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-            <small>Last updated 3 mins ago</small>
-          </div>
-        </div>
+<!-- Contenedor principal para las tarjetas -->
+<!-- Utiliza una estructura de grid para organizar el contenido en una columna en pantallas pequeñas, y en tres columnas en pantallas medianas -->
+<!-- Usa flexbox para alinear el contenido en el centro vertical y horizontalmente en toda la pantalla -->
+<div id="card" class="grid-cols-1 sm:grid md:grid-cols-3 flex items-center justify-center h-screen">
+  
+    <!-- Primera tarjeta -->
+    <div class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
       
-        <div
-          class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              class="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/043.webp"
-              alt="Los Angeles Skyscrapers" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight">Experiencia</h5>
-            <p class="mb-4 text-base">
-                01100101 01111000 01110000 01100101 01110010 01101001 01101101 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 00100000 01100100 01100101 00100000 01100101 01111000 01110000 01100101 01110010 01101001 01100101 01101110 01100011 01101001 01100001 01110011 
-            </p>
-          </div>
-          <div
-            class="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-            <small>Last updated 3 mins ago</small>
-          </div>
-        </div>
+      <!-- Enlace envolviendo la imagen de la tarjeta -->
+      <a href="#!">
+        <!-- Imagen con bordes redondeados en la parte superior -->
+        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/044.webp" alt="Skyscrapers" />
+      </a>
       
-        <div
-          class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              class="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp"
-              alt="Palm Springs Road" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight">Experiencia</h5>
-            <p class="mb-4 text-base">
-                01100101 01111000 01110000 01100101 01110010 01101001 01101101 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 00100000 01100100 01100101 00100000 01100101 01111000 01110000 01100101 01110010 01101001 01100101 01101110 01100011 01101001 01100001 01110011 
-            </p>
-          </div>
-          <div
-            class="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-            <small>Last updated 3 mins ago</small>
-          </div>
-        </div>
+      <!-- Contenedor del contenido textual de la tarjeta -->
+      <div class="p-6">
+        <!-- Título de la tarjeta -->
+        <h5 class="mb-2 text-xl font-medium leading-tight">Experiencia</h5>
+        
+        <!-- Párrafo de texto en binario -->
+        <!-- Este texto binario parece representar un mensaje codificado -->
+        <p class="mb-4 text-base">
+          01100101 01111000 01110000 01100101 01110010 01101001 01101101 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 00100000 01100100 01100101 00100000 01100101 01111000 01110000 01100101 01110010 01101001 01100101 01101110 01100011 01101001 01100001 01110011 
+        </p>
       </div>
-      {{-- cards --}}
+      
+      <!-- Pie de la tarjeta -->
+      <!-- Contiene un texto que indica el tiempo de la última actualización -->
+      <div class="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+        <small>Last updated 3 mins ago</small>
+      </div>
+    </div>
+  
+    <!-- Segunda tarjeta (estructura similar a la primera) -->
+    <div class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+      
+      <!-- Enlace envolviendo la imagen de la tarjeta -->
+      <a href="#!">
+        <!-- Imagen con bordes redondeados en la parte superior -->
+        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/043.webp" alt="Los Angeles Skyscrapers" />
+      </a>
+      
+      <!-- Contenedor del contenido textual de la tarjeta -->
+      <div class="p-6">
+        <!-- Título de la tarjeta -->
+        <h5 class="mb-2 text-xl font-medium leading-tight">Experiencia</h5>
+        
+        <!-- Párrafo de texto en binario -->
+        <p class="mb-4 text-base">
+          01100101 01111000 01110000 01100101 01110010 01101001 01101101 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 00100000 01100100 01100101 00100000 01100101 01111000 01110000 01100101 01110010 01101001 01100101 01101110 01100011 01101001 01100001 01110011 
+        </p>
+      </div>
+      
+      <!-- Pie de la tarjeta -->
+      <div class="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+        <small>Last updated 3 mins ago</small>
+      </div>
+    </div>
+  
+    <!-- Tercera tarjeta (estructura similar a las anteriores) -->
+    <div class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+      
+      <!-- Enlace envolviendo la imagen de la tarjeta -->
+      <a href="#!">
+        <!-- Imagen con bordes redondeados en la parte superior -->
+        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Palm Springs Road" />
+      </a>
+      
+      <!-- Contenedor del contenido textual de la tarjeta -->
+      <div class="p-6">
+        <!-- Título de la tarjeta -->
+        <h5 class="mb-2 text-xl font-medium leading-tight">Experiencia</h5>
+        
+        <!-- Párrafo de texto en binario -->
+        <p class="mb-4 text-base">
+          01100101 01111000 01110000 01100101 01110010 01101001 01101101 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 00100000 01100100 01100101 00100000 01100101 01111000 01110000 01100101 01110010 01101001 01100101 01101110 01100011 01101001 01100001 01110011 
+        </p>
+      </div>
+      
+      <!-- Pie de la tarjeta -->
+      <div class="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+        <small>Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de las tarjetas -->
+  
 
 <!-- Card -->
 <div id='contac' class="flex items-center justify-center h-screen">
