@@ -34,6 +34,7 @@
             <img src="{{ asset('img/2.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
+    {{-- Carousel wrapper --}}
 
     <!-- Slider indicators -->
     <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -43,6 +44,7 @@
         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
     </div>
+    {{-- Slider indicators --}}
 
     <!-- Slider controls -->
     <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
@@ -62,13 +64,13 @@
             <span class="sr-only">Next</span>
         </span>
     </button>
-
+    {{-- Slider controls --}}
+    
 </div>
-<!-- Carousel wrapper -->
+{{-- Carousel wrapper --}}
 
 
-{{-- Cards --}}
-
+    <!-- Cards -->
     <div  id="card" class="grid-cols-1 sm:grid md:grid-cols-3 flex items-center justify-center h-screen">
         <div
           class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
@@ -130,16 +132,18 @@
           </div>
         </div>
       </div>
+      {{-- cards --}}
 
-
-{{-- car --}}
+<!-- Card -->
 <div id='contac' class="flex items-center justify-center h-screen">
     <div class="flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-xl md:flex-row">
         <img class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg" src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg" alt="" />
         <div class="flex flex-col justify-start p-6">
 
             <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Nombre</h5>
-            <p class="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">01010000 01110010 01100101 01110011 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 
+            
+            <p class="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">
+                01010000 01110010 01100101 01110011 01100101 01101110 01110100 01100001 01100011 01101001 01101111 01101110 
             </p>
             
             <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
@@ -169,7 +173,7 @@
     </div>
 
 </div>
-
+{{-- Card --}}
 
 
 {{-- about --}}
@@ -310,6 +314,6 @@
     </div>
 </div>
 </div>
-
+{{-- about --}}
 
 @endsection
