@@ -110,6 +110,10 @@
                             <div id="create-user" class="tab-content hidden">
                                 <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Tarjeta Independiente</h3>
                                 <p>Contenido para la tarjeta independiente...</p>
+                                <a href="{{ route('cardunicas.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                    Crear Nueva Cardúnica
+                                </a>
+                                
                             </div>
                             {{-- Contenido para la pestaña de "Tarjeta Independiente" --}}
 
