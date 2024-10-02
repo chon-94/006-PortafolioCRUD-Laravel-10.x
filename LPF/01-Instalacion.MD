@@ -99,3 +99,7 @@ copilar con laravel vite
     npm install
     npm run dev
 ```
+
+### CRUD
+
+php artisan make:model Card -mcr
